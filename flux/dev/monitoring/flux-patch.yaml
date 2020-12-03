@@ -4,8 +4,6 @@ kind: Secret
 metadata:
   name: alertmanager-main
   namespace: teste
-  annotations:
-    flux.weave.works/automated: "true"
 stringData:
   alertmanager.yaml: |-
     "global":
